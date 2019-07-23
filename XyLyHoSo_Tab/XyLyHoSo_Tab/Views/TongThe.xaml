@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XyLyHoSo_Tab.Views.TongThe"
+             BackgroundColor="#CCFFFF">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="white" Margin="10,10">
+            <Label Text="Thông tin cập nhật trong ngày"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                   FontSize="20"
+                   Margin="10,30"
+                   TextColor="Blue"
+                   />
+
+            <Label Text="Tổng số hồ sơ đang xử lý"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+            <Label Text="Hồ sơ quá hạn"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+            <Label Text="Hồ sơ chưa đến hạn"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+            <Label Text="Hồ sơ trễ"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+
+            <Label Text="Hồ sơ đúng hạn"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+            <Label Text="Hồ sơ sớm"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+            <BoxView HeightRequest="1" 
+                     HorizontalOptions="FillAndExpand"
+                     BackgroundColor="Gray"/>
+            <Label Text="Hồ sơ chờ bổ sung"
+                  VerticalOptions="Center"
+                   />
+            <Label Text="123"
+                  VerticalOptions="Center"
+                   />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
